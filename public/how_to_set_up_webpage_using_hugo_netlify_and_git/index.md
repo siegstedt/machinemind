@@ -1,8 +1,5 @@
----
-title: "How to set up webpage using HUGO, Netlify, and Git"
-date: 2021-01-03T12:29:51+01:00
-draft: false
----
+# How to set up webpage using HUGO, Netlify, and Git
+
 
 **I am setting up my first webpage with Hugo and Netlify**
 

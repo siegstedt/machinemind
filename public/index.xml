@@ -2,15 +2,15 @@
     <channel>
         <title>machinemind.io</title>
         <link>https://www.machinemind.io/</link>
-        <description>machinemind.io</description>
+        <description>machinemind.io - how to work on data by siegstedt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 Jan 2021 12:29:51 &#43;0100</lastBuildDate>
             <atom:link href="https://www.machinemind.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>How_to_set_up_webpage_using_hugo_netlify_and_git</title>
-    <link>https://www.machinemind.io/posts/how_to_set_up_webpage_using_hugo_netlify_and_git/</link>
+    <title>How to set up webpage using HUGO, Netlify, and Git</title>
+    <link>https://www.machinemind.io/how_to_set_up_webpage_using_hugo_netlify_and_git/</link>
     <pubDate>Sun, 03 Jan 2021 12:29:51 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://www.machinemind.io/posts/how_to_set_up_webpage_using_hugo_netlify_and_git/</guid>
+    <guid>https://www.machinemind.io/how_to_set_up_webpage_using_hugo_netlify_and_git/</guid>
     <description><![CDATA[I am setting up my first webpage with Hugo and Netlify
 This is my first time using a static website builder. So far I have used to built pages with WordPress. I followed the recommendation of a friend and the promise of a simple to use and shiny new open-source tool to set up this site.
 For getting you started, it actually only takes a hand full of commands in your terminal.]]></description>
