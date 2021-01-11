@@ -129,7 +129,7 @@ theme = "LoveIt"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "images/avatar.png"
+      avatarURL = "/images/avatar.png"
       #  title shown in home page (HTML format is supported)
       title = "machinemind.io"
       # subtitle shown in home page
@@ -151,9 +151,10 @@ theme = "LoveIt"
 
   # Social config about the author
   [params.social]
+    Email = "siegstedt@machinemind.io"
+    Twitter = "siegstedt"
     GitHub = "siegstedt"
     Linkedin = "siegfriedeckstedt"
-    Twitter = "siegstedt"
     Instagram = ""
     Facebook = ""
     Telegram = ""
@@ -212,8 +213,7 @@ theme = "LoveIt"
     Gitea = ""
     XMPP = ""
     Matrix = ""
-    Bilibili = ""
-    Email = "siegstedt@machinemind.io"
+    Bilibili = ""    
 
   #  Page config
   [params.page]
@@ -492,8 +492,8 @@ theme = "LoveIt"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Siegfried Eckstedt"
+  email = "siegstedt@machinemind.io"
   link = ""
 
 # Sitemap config
@@ -544,24 +544,8 @@ theme = "LoveIt"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "posts"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
