@@ -27,4 +27,4 @@ license: ""
 
 <!--more-->
 
-Help to improve the post on GitHub: https://github.com/siegstedt/machinemind/blob/main/content/posts/"{{ replace .TranslationBaseName "-" "-" | title }}"
+Help to **improve this post** on [GitHub](https://github.com/siegstedt/machinemind/blob/main/content/posts/being-a-data-scientist.md). Thank you for your contribution.
