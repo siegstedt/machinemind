@@ -36,7 +36,7 @@ To recap, Design Thinking is a **human-centered** process that focuses on the pr
 
 Now that we understand that the one has it’s strength in the problem space and the other in the solution space, let’s bring the two together. The diagram below provides an overview of a process that flows through five stages allowing for iterations and repetition.
 
-![Design Thinking flow complemented by Data Science specific tasks](/static/img/how-to-design-data-products-a-design-thinking-flow-for-data-science.jpg)
+![Design Thinking flow complemented by Data Science specific tasks](/images/how-to-design-data-products-a-design-thinking-flow-for-data-science.jpg)
 
 ## Setup
 
