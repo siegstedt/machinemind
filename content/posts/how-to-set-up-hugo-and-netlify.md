@@ -8,7 +8,7 @@ author: "siegstedt"
 authorLink: ""
 description: "How to set up a webpage using HUGO, Netlify, and Git"
 
-tags: [hugo,netlify,git,web development, static web site]
+tags: [setup,hugo,netlify,git,web development, static website]
 categories: [Projects]
 
 hiddenFromHomePage: false
