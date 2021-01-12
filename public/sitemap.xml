@@ -2,8 +2,23 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://www.machinemind.io/how_to_set_up_webpage_using_hugo_netlify_and_git/</loc><lastmod>2021-01-03T12:29:51&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.machinemind.io/</loc><lastmod>2021-01-03T12:29:51&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.machinemind.io/posts/</loc><lastmod>2021-01-03T12:29:51&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.machinemind.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.machinemind.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://www.machinemind.io/categories/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/tags/git/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/how-to-set-up-hugo-and-netlify/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/tags/hugo/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/posts/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/categories/projects/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/tags/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/tags/web-dev/</loc><lastmod>2021-01-11T18:21:23&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.machinemind.io/categories/data-science/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/data-science/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/design-thinking/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/how-to-design-data-products/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/lean/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/problem/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/solution/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/startup/</loc><lastmod>2019-11-17T22:47:38&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/career/</loc><lastmod>2019-11-03T05:38:29&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/being-a-data-scientist/</loc><lastmod>2019-11-03T05:38:29&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.machinemind.io/tags/lessons/</loc><lastmod>2019-11-03T05:38:29&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>How to set up a webpage using HUGO, Netlify, and Git - machinemind.io</title><meta name="Description" content="How to set up a webpage using HUGO, Netlify, and Git"><meta property="og:title" content="How to set up a webpage using HUGO, Netlify, and Git" />
+<meta property="og:description" content="How to set up a webpage using HUGO, Netlify, and Git" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" />
+<meta property="og:image" content="https://www.machinemind.io/logo.png"/>
+<meta property="article:published_time" content="2021-01-03T12:29:51+01:00" />
+<meta property="article:modified_time" content="2021-01-11T18:21:23+01:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.machinemind.io/logo.png"/>
+
+<meta name="twitter:title" content="How to set up a webpage using HUGO, Netlify, and Git"/>
+<meta name="twitter:description" content="How to set up a webpage using HUGO, Netlify, and Git"/>
+<meta name="application-name" content="machinemind.io">
+<meta name="apple-mobile-web-app-title" content="machinemind.io"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" /><link rel="prev" href="https://www.machinemind.io/how-to-design-data-products/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to set up a webpage using HUGO, Netlify, and Git",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.machinemind.io\/how-to-set-up-hugo-and-netlify\/"
+        },"genre": "posts","keywords": "hugo, git, web dev","wordcount":  770 ,
+        "url": "https:\/\/www.machinemind.io\/how-to-set-up-hugo-and-netlify\/","datePublished": "2021-01-03T12:29:51+01:00","dateModified": "2021-01-11T18:21:23+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "siegstedt"
+            },"description": "How to set up a webpage using HUGO, Netlify, and Git"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="machinemind.io">machinemind.io</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> posts </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="machinemind.io">machinemind.io</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">posts</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">How to set up a webpage using HUGO, Netlify, and Git</h1><h2 class="single-subtitle">An introduction to static website hosting with open and free resources</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>siegstedt</a></span>&nbsp;<span class="post-category">included in <a href="/categories/projects/"><i class="far fa-folder fa-fw"></i>Projects</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-03">2021-01-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;770 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#setup-a-hugo-site-with-a-theme">setup a hugo site with a theme</a></li>
+    <li><a href="#launch-the-page">launch the page</a></li>
+    <li><a href="#host-and-maintain-site">host and maintain site</a></li>
+    <li><a href="#checklist">checklist</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>This is my <strong>first time</strong> using a static website builder. So far, I have used to built pages with WordPress. But I have never truly made friends with the UI and got a confused too easily with the many additional plugins it required to get up something nice.</p>
+<p>So, as a I thought about setting up a new site, I followed the recommendation of a friend to check out Hugo. The promise of a simple to use and shiny new open-source tool got hooked up. And so I&rsquo;m sitting here and start with <strong>Hugo, Netlify and Git</strong>.</p>
+<p>Help to <strong>improve this post</strong> on <a href="https://github.com/siegstedt/machinemind/blob/main/content/posts/how-to-set-up-hugo-and-netlify.md" target="_blank" rel="noopener noreffer">GitHub</a>. Thank you for your contribution.</p>
+<h2 id="setup-a-hugo-site-with-a-theme">setup a hugo site with a theme</h2>
+<p>Now, let&rsquo;s get the party started and set up our site.</p>
+<p>To <strong>install Hugo</strong> on your machine, follow the instruction on the following link: <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></p>
+<p>Now the playing begins. For getting started, it actually only takes a hand full of commands in your terminal.</p>
+<p>Again, Hugo really works most efficiently when used straight from the terminal. Here are the two (!) commands for <strong>creating a new site</strong> and navigating into its directory.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new site machinemind
+cd machinemind
+</code></pre></td></tr></table>
+</div>
+</div><p>The site for sure still needs a bit more love and style. Let&rsquo;s choose a theme.</p>
+<p>Hugo offers a big a variety of themes that you can download, apply on your site and change as you wish. Here is an overview: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<p>For my site, I want to go with the LoveIt. Check out the documentation of the theme of your choice to make sure that you configure it correctly.</p>
+<p>For me, <strong>installing the theme</strong> is done with two git commands.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">git init
+git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+</code></pre></td></tr></table>
+</div>
+</div><p>Again, I want to highlight that the theme of your choice may require some changes to the config file of your site. For the basic setup of my site, I followed the instructions of the LoveIt documentation: <a href="https://hugoloveit.com/theme-documentation-basics/">https://hugoloveit.com/theme-documentation-basics/</a></p>
+<p>So far, the page is free of any content. Here is the command to <strong>create a new post</strong>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new posts/new-post.md
+</code></pre></td></tr></table>
+</div>
+</div><p>The quickest way to edit the content of the post is for sure to simply open the markdown file in a text editor of your choice and hit some keys.</p>
+<h2 id="launch-the-page">launch the page</h2>
+<p>Alright. There is the site. There is a first post. You must be getting curious and want to inspect the results of your work.</p>
+<p><strong>Launch the website</strong> with the following command. Then, go to http://localhost:1313 in your browser and see.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo serve --disableFastRender -D
+</code></pre></td></tr></table>
+</div>
+</div><p>The &ldquo;-D&rdquo; is required to get the drafted post produced. Alternatively, you can change the &ldquo;draft&rdquo; variable inside the post&rsquo;s md file from true to false.</p>
+<p>Good! We&rsquo;re really making progress here. As soon as you want to <strong>publish</strong> the site, we only need to hit one word into terminal.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo
+</code></pre></td></tr></table>
+</div>
+</div><p>Now, check your directory structure. A public folder will be generated, containing all static content and assets for your website.</p>
+<h2 id="host-and-maintain-site">host and maintain site</h2>
+<p>I love this. Thus far, we were working with lightning speed to get up a themed site, a post, and publish all the content inside the site&rsquo;s directory.</p>
+<p>Okay. I want to have all changes to website tracked by Git. I will use GitHub and continue with <strong>creating en empty repository</strong> on GutHub that I call just the same name as my webpage.</p>
+<p>Once that is successful, <strong>push all content</strong> from the local directory on the  created it GitHub repository.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">git remote add origin https://github.com/siegstedt/machinemind.git
+git branch -M main
+git push -u origin main
+</code></pre></td></tr></table>
+</div>
+</div><p>Brilliant work. This GitHub repository will be our backbone for deploying the site through Netlify. Clearly, there are other means to host your site. Choose what feels right with you: <a href="https://gohugo.io/hosting-and-deployment/">https://gohugo.io/hosting-and-deployment/</a></p>
+<p>Still, I will <strong>host the site with Netlify</strong> and make use of its GitHub interface for continuous deployment. Find the instructions for the setup here: <a href="https://gohugo.io/hosting-and-deployment/hosting-on-netlify">https://gohugo.io/hosting-and-deployment/hosting-on-netlify</a></p>
+<p>I grant you some time for getting that up. With Netlify, it&rsquo;s described very well in their docs. And I trust you being a smart cookie. It will go smoothly.</p>
+<p>Once your site is hosted, you want to continue adding and pushing content on it. For this maintenance work, use the following commands for <strong>updating GitHub repo</strong> with the new content.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">git add .
+git commit -m &#39;message&#39;
+git push
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="checklist">checklist</h2>
+<p>And that is it really. Enjoy building and playing with your site.</p>
+<p>For your reference, find below a little checklist of action steps and related links.</p>
+<ul>
+<li><i class="far fa-square fa-fw"></i> Install Hugo: <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></li>
+<li><i class="far fa-square fa-fw"></i> Hugo Quick start: <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
+<li><i class="far fa-square fa-fw"></i> LoveIt theme basics: <a href="https://hugoloveit.com/theme-documentation-basics/">https://hugoloveit.com/theme-documentation-basics/</a></li>
+<li><i class="far fa-square fa-fw"></i> Host page no Netlify: <a href="https://gohugo.io/hosting-and-deployment/hosting-on-netlify/">https://gohugo.io/hosting-and-deployment/hosting-on-netlify/</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-01-11</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/how-to-set-up-hugo-and-netlify/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-title="How to set up a webpage using HUGO, Netlify, and Git" data-via="siegstedt" data-hashtags="hugo,git,web dev"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-hashtag="hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-title="How to set up a webpage using HUGO, Netlify, and Git" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-title="How to set up a webpage using HUGO, Netlify, and Git"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-title="How to set up a webpage using HUGO, Netlify, and Git"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-title="How to set up a webpage using HUGO, Netlify, and Git" data-description="How to set up a webpage using HUGO, Netlify, and Git"><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-title="How to set up a webpage using HUGO, Netlify, and Git" data-description="How to set up a webpage using HUGO, Netlify, and Git"><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" data-title="How to set up a webpage using HUGO, Netlify, and Git"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">hugo</a>,&nbsp;<a href="/tags/git/">git</a>,&nbsp;<a href="/tags/web-dev/">web dev</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/how-to-design-data-products/" class="prev" rel="prev" title="How to design data products: A Design Thinking flow for Data Science"><i class="fas fa-angle-left fa-fw"></i>How to design data products: A Design Thinking flow for Data Science</a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.80.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Siegfried Eckstedt</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
