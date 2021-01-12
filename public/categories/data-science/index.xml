@@ -4,13 +4,27 @@
         <link>https://www.machinemind.io/categories/data-science/</link>
         <description>Data Science - Category - machinemind.io</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>siegstedt@machinemind.io (Siegfried Eckstedt)</managingEditor>
-            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Wed, 08 Jan 2020 20:51:19 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/categories/data-science/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Thu, 16 Jan 2020 15:56:38 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/categories/data-science/" rel="self" type="application/rss+xml" /><item>
+    <title>Must Watch: Good AI channels on Youtube</title>
+    <link>https://www.machinemind.io/must-watch-ai-channels-on-youtube/</link>
+    <pubDate>Thu, 16 Jan 2020 15:56:38 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/must-watch-ai-channels-on-youtube/</guid>
+    <description><![CDATA[<p>I guess, I just really like watching YouTube. And because of my recent endeavors in Data Science, I came across some channels that got my neurons fired. Lacking of a better title, I simply present must watch list of &ldquo;Good AI channels on YouTube&rdquo;.</p>]]></description>
+</item><item>
     <title>Must Watch: Youtube channels for learning Data Science</title>
     <link>https://www.machinemind.io/must-watch-youtube-channels-for-learning-data-science/</link>
     <pubDate>Wed, 08 Jan 2020 20:51:19 &#43;0100</pubDate>
     <author>Author</author>
     <guid>https://www.machinemind.io/must-watch-youtube-channels-for-learning-data-science/</guid>
     <description><![CDATA[<p>Is there some good content on YouTube to learn about Data Science? Sure thing, yes! YoutTube is a tremendous source of content of all kinds - and so it is for Data Science. Here is a short list of YouTube channels I found enjoyable to learn on topics and be inspired to try out new stuff.</p>]]></description>
+</item><item>
+    <title>Must Read: Books for learning Machine Learning and Artificial Intelligence</title>
+    <link>https://www.machinemind.io/must-read-books-for-learning-ml-ai/</link>
+    <pubDate>Tue, 03 Dec 2019 04:31:13 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/must-read-books-for-learning-ml-ai/</guid>
+    <description><![CDATA[<p>What are your favorite books on Machine Learning or Artificial Intelligence? In the series of must read books, I feature theme-specific lists of books on various topics. Here is the start of the series covering the theme Machine Learning and Artificial Intelligence. On purpose, it&rsquo;s a fairly condensed list of six books. So I trust that you have a few suggestions what piece could make a good addition.</p>]]></description>
 </item><item>
     <title>How to design data products: A Design Thinking flow for Data Science</title>
     <link>https://www.machinemind.io/how-to-design-data-products/</link>

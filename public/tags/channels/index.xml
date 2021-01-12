@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>channels - Tag - machinemind.io</title>
+        <link>https://www.machinemind.io/tags/channels/</link>
+        <description>channels - Tag - machinemind.io</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>siegstedt@machinemind.io (Siegfried Eckstedt)</managingEditor>
+            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Thu, 16 Jan 2020 15:56:38 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/tags/channels/" rel="self" type="application/rss+xml" /><item>
+    <title>Must Watch: Good AI channels on Youtube</title>
+    <link>https://www.machinemind.io/must-watch-ai-channels-on-youtube/</link>
+    <pubDate>Thu, 16 Jan 2020 15:56:38 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/must-watch-ai-channels-on-youtube/</guid>
+    <description><![CDATA[<p>I guess, I just really like watching YouTube. And because of my recent endeavors in Data Science, I came across some channels that got my neurons fired. Lacking of a better title, I simply present must watch list of &ldquo;Good AI channels on YouTube&rdquo;.</p>]]></description>
+</item></channel>
+</rss>
