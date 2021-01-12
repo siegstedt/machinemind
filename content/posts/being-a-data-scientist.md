@@ -2,7 +2,7 @@
 title: "How it is being a Data Scientist: One year into the job"
 subtitle: ""
 date: 2019-11-03T05:38:29+01:00
-draft: true
+draft: false
 author: "siegstedt"
 authorLink: ""
 description: "How it is being a Data Scientist"

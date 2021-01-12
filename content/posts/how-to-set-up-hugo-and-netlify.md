@@ -31,7 +31,7 @@ So, as a I thought about setting up a new site, I followed the recommendation of
 
 <!--more-->
 
-Help to **improve this post** on [GitHub](https://github.com/siegstedt/machinemind/blob/main/content/posts/how_to_set_up_webpage_using_hugo_netlify_and_git.md). Thank you for your contribution.
+Help to **improve this post** on [GitHub](https://github.com/siegstedt/machinemind/blob/main/content/posts/how-to-set-up-hugo-and-netlify.md). Thank you for your contribution.
 
 ## setup a hugo site with a theme
 
