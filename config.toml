@@ -87,9 +87,9 @@ theme = "LoveIt"
   [params.footer]
     enable = true
     #  Custom content (HTML format is supported)
-    custom = ''
+    custom = 'You are most welcome.'
     #  whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
@@ -131,20 +131,20 @@ theme = "LoveIt"
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       #  title shown in home page (HTML format is supported)
-      title = "machinemind.io"
+      title = ""
       # subtitle shown in home page
-      subtitle = "how to make data work - by siegstedt"
+      subtitle = "machinemind.io - web presence of Siegfried Eckstedt"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
       social = true
       #  disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = "I'm writing about mostly everything that I'm working on. My projects are in the space of Applied Data Science, Data Engineering, Python Programming and Innovation Management. Enjoy reading and help to contribute via <a href='https://github.com/siegstedt/machinemind/tree/main/content/posts'>GitHub</a>."
     # Home page posts
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 6
+      paginate = 5
       #  replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
@@ -549,3 +549,27 @@ theme = "LoveIt"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
+
+  [[menu.main]]
+    identifier = "work"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "service"
+    url = "/work/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "about"
+    url = "/siegstedt/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 3
