@@ -1,12 +1,12 @@
 ---
-title: "Work"
-subtitle: "Services open for booking"
+title: "Service"
+subtitle: "I am not going against you"
 slug: work
 ---
 
 # Contract work
 ---
-*On spot delivery*
+**On spot delivery**
 
 The list of open tasks and undelivered projects is long and you struggle to find talent to fit the roles? Let’s talk.
 
@@ -15,7 +15,7 @@ Let us join your team to support you with interim data delivery power. We get yo
 Leave a mail at siegstedt@machinemind.io
 
 --- 
-*Ad-hoc analytics*
+**Ad-hoc analytics**
 
 You exactly know what questions you want to have answered, but you got stuck with the data? Your programs are crashing, Google doesn't help, and online forums are non-sense? Let’s fix it.
 

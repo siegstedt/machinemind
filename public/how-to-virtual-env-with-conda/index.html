@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>How to create a virtual environment with conda - machinemind.io</title><meta name="Description" content="How to create a virtual environment with conda"><meta property="og:title" content="How to create a virtual environment with conda" />
+<meta property="og:description" content="How to create a virtual environment with conda" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.machinemind.io/how-to-virtual-env-with-conda/" />
+<meta property="og:image" content="https://www.machinemind.io/logo.png"/>
+<meta property="article:published_time" content="2021-01-20T14:22:36+01:00" />
+<meta property="article:modified_time" content="2021-01-20T14:22:36+01:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.machinemind.io/logo.png"/>
+
+<meta name="twitter:title" content="How to create a virtual environment with conda"/>
+<meta name="twitter:description" content="How to create a virtual environment with conda"/>
+<meta name="application-name" content="machinemind.io">
+<meta name="apple-mobile-web-app-title" content="machinemind.io"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.machinemind.io/how-to-virtual-env-with-conda/" /><link rel="prev" href="https://www.machinemind.io/how-to-set-up-hugo-and-netlify/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to create a virtual environment with conda",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.machinemind.io\/how-to-virtual-env-with-conda\/"
+        },"genre": "posts","keywords": "conda, environment, python, programming, project","wordcount":  739 ,
+        "url": "https:\/\/www.machinemind.io\/how-to-virtual-env-with-conda\/","datePublished": "2021-01-20T14:22:36+01:00","dateModified": "2021-01-20T14:22:36+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Siegfried Eckstedt"
+            },"description": "How to create a virtual environment with conda"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="machinemind.io">machinemind.io</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> posts </a><a class="menu-item" href="/work/"> service </a><a class="menu-item" href="/siegstedt/"> about </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="machinemind.io">machinemind.io</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">posts</a><a class="menu-item" href="/work/" title="">service</a><a class="menu-item" href="/siegstedt/" title="">about</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">How to create a virtual environment with conda</h1><h2 class="single-subtitle">A guide to get you started with data ___ projects.</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Siegfried Eckstedt</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-20">2021-01-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;739 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#okay-but-why-conda">Okay, but why conda?</a></li>
+    <li><a href="#create-and-activate-virtual-environment">Create and activate virtual environment</a></li>
+    <li><a href="#manage-virtual-environment">Manage virtual environment</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Let&rsquo;s say you&rsquo;re working on different projects. One a nlp project. One a financial analytics projects. One a marketing analytics project.</p>
+<p>And let&rsquo;s say, for your first project, you have installed a package some months ago. That package came with verison 1.0. And for another current project you wanted to use an upgraded version of that package - say version 2.0. The package is open source and many changes have been deployed between version 1.0 and 2.0. The code of your older project wouldn&rsquo;t run with it.</p>
+<p>Or, for another even newer project, you wanted to install some other brand new and hot package. Though, that new package requires you to upgrade the above mentioned 1.0 package to 2.0. That is a depedency between packages. Next, the new package will be installed with its newest version. And since the package has a dependency to the older project&rsquo;s package, the &lsquo;older&rsquo; package will be updated, too. This may be alright for your current project. Though, the code of your old project may suffer severely, because something in the package changed and your code starts to throw errors.</p>
+<p>So, note this lesson: In order to avoid package dependency issues across the many projects you are working on, always - yes, always - set up a virtual environment to host your project.</p>
+<p>Thanks for reading this far. We&rsquo;re not done yet. Just wanted to say that of you wanted to add or correct something, please <strong>help to edit</strong> this post on <a href="https://github.com/siegstedt/machinemind/blob/main/content/posts/how-to-virtual-env-with-conda.md" target="_blank" rel="noopener noreffer">GitHub</a>. Thanks.</p>
+<h2 id="okay-but-why-conda">Okay, but why conda?</h2>
+<p>Now, why should you use conda for ramping up your virtual environment? How does it help? Let me try to explain.</p>
+<p>It&rsquo;s probably fair to say that Conda is among the most popular options. Conda not only allows you to manage dependencies across packages. It also installs packages (such as the package manager pip).</p>
+<p>Conda is a tool for managing and deploying applications, environments and packages. So, it covers a wider range functoinality.</p>
+<p>Well, there are other tools that you could use. Fair point. The above mentioned package manager pip. Or, the environment manager virtualenv. But, the upside of conda is that it is not limited to Python and allows you to manage other programming languages, too. Something that pip doesn&rsquo;t.</p>
+<p>Check this article to understand the difference between conda and pip better:
+<a href="https://stackoverflow.com/questions/20994716/what-is-the-difference-between-pip-and-conda">https://stackoverflow.com/questions/20994716/what-is-the-difference-between-pip-and-conda</a></p>
+<p>And find this concise post for learning how to differentiate between anaconda, miniconda, and virtualenv:
+<a href="https://deeplearning.lipingyang.org/2018/12/23/anaconda-vs-miniconda-vs-virtualenv/">https://deeplearning.lipingyang.org/2018/12/23/anaconda-vs-miniconda-vs-virtualenv/</a></p>
+<h2 id="create-and-activate-virtual-environment">Create and activate virtual environment</h2>
+<p>Let&rsquo;s get our hands dirty.</p>
+<p>Follow the instructions in the conda docs to install conda. Propably, you may just install Anaconda or Miniconda.
+<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html</a></p>
+<p>First thing, we <strong>create</strong> a new virtual environment called &lsquo;my-new-virt-env&rsquo; with a current Python version. In my case, I want to install 3.8. Here is the command for your temrinal.
+'''
+conda create &ndash;name my-new-virt-env python=3.8
+'''</p>
+<p>Once created, we <strong>activate</strong> the new environment so that it is up for use.
+'''
+conda activate my-new-virt-env
+'''</p>
+<p>Now, any installed package will be living in the newly created environment. Thus, package dependencies have been decoupled from projects.</p>
+<p>As a matter of practicallity and transparency, I suggest to keep naming of project directory and virtual environment same. For the example we have spinned off above, we might need to create a <strong>directory</strong> for our project. So, you can do something like this in terminal.
+'''
+mkdir my-new-virt-env
+cd my-new-virt-env
+'''</p>
+<p>As you are done with working on the project, <strong>deactivate</strong> the current environment.
+'''
+conda deactivate
+'''</p>
+<h2 id="manage-virtual-environment">Manage virtual environment</h2>
+<p>That&rsquo;s cool. Our environment is up and ready for us to play. But so far, we&rsquo;ve only touched the surface of what conda can do. Here are some more commands that can be of good help.</p>
+<p>First, get a list of all environments that you have created on your system.
+'''
+conda info &ndash;envs
+'''</p>
+<p>Then, installing a list of packages into a specified conda environment is done as follows. Note that, if no environment is specified, the current environment is used.
+'''
+conda install &ndash;name my-new-environment pandas
+'''</p>
+<p>This is how you get a list of all packages in the conda environment.
+'''
+conda list
+'''</p>
+<p>And lastly, if you want to part from your created environment, remove an environment with this command.
+'''
+conda env remove &ndash;name my-new-virt-env
+'''</p>
+<p>There are more cool things you can do with conda, such as cloning or restoring environments. Read more on how to manage environments in conda here:
+<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html</a></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-01-20</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/how-to-virtual-env-with-conda/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-title="How to create a virtual environment with conda" data-via="siegstedt" data-hashtags="conda,environment,python,programming,project"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-hashtag="conda"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-title="How to create a virtual environment with conda" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-title="How to create a virtual environment with conda"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-title="How to create a virtual environment with conda"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-title="How to create a virtual environment with conda" data-description="How to create a virtual environment with conda"><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-title="How to create a virtual environment with conda" data-description="How to create a virtual environment with conda"><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://www.machinemind.io/how-to-virtual-env-with-conda/" data-title="How to create a virtual environment with conda"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/conda/">conda</a>,&nbsp;<a href="/tags/environment/">environment</a>,&nbsp;<a href="/tags/python/">python</a>,&nbsp;<a href="/tags/programming/">programming</a>,&nbsp;<a href="/tags/project/">project</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/how-to-set-up-hugo-and-netlify/" class="prev" rel="prev" title="How to set up a webpage using HUGO, Netlify, and Git"><i class="fas fa-angle-left fa-fw"></i>How to set up a webpage using HUGO, Netlify, and Git</a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">You are most welcome.</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Siegfried Eckstedt</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

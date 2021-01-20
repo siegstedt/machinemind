@@ -11,7 +11,8 @@ Unordered lists of issues.
 **Posts:**
 
 - [ ] write a post on how to set up a secure remote workplace
-- [ ] write a post on must read books for learning
+- [ ] write a post on must read books for learning python programming
+- [ ] write a post on how to create a virtual environment with conda
 
 **Design:**
 
