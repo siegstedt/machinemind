@@ -36,51 +36,51 @@ Follow the instructions in the conda docs to install conda. Propably, you may ju
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 First thing, we **create** a new virtual environment called 'my-new-virt-env' with a current Python version. In my case, I want to install 3.8. Here is the command for your temrinal.
-'''
+```
 conda create --name my-new-virt-env python=3.8
-'''
+```
 
 Once created, we **activate** the new environment so that it is up for use.
-'''
+```
 conda activate my-new-virt-env
-'''
+```
 
 Now, any installed package will be living in the newly created environment. Thus, package dependencies have been decoupled from projects.
 
 As a matter of practicallity and transparency, I suggest to keep naming of project directory and virtual environment same. For the example we have spinned off above, we might need to create a **directory** for our project. So, you can do something like this in terminal.
-'''
+```
 mkdir my-new-virt-env
 cd my-new-virt-env
-'''
+```
 
 As you are done with working on the project, **deactivate** the current environment.
-'''
+```
 conda deactivate
-'''
+```
 
 ## Manage virtual environment
 
 That's cool. Our environment is up and ready for us to play. But so far, we've only touched the surface of what conda can do. Here are some more commands that can be of good help.
 
 First, get a list of all environments that you have created on your system.
-'''
+```
 conda info --envs
-'''
+```
 
 Then, installing a list of packages into a specified conda environment is done as follows. Note that, if no environment is specified, the current environment is used.
-'''
+```
 conda install --name my-new-environment pandas
-'''
+```
 
 This is how you get a list of all packages in the conda environment.
-'''
+```
 conda list
-'''
+```
 
 And lastly, if you want to part from your created environment, remove an environment with this command.
-'''
+```
 conda env remove --name my-new-virt-env
-'''
+```
 
 There are more cool things you can do with conda, such as cloning or restoring environments. Read more on how to manage environments in conda here:
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html

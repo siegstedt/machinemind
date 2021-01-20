@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.machinemind.io\/how-to-virtual-env-with-conda\/"
-        },"genre": "posts","keywords": "conda, environment, python, programming, project","wordcount":  739 ,
+        },"genre": "posts","keywords": "conda, environment, python, programming, project","wordcount":  732 ,
         "url": "https:\/\/www.machinemind.io\/how-to-virtual-env-with-conda\/","datePublished": "2021-01-20T14:22:36+01:00","dateModified": "2021-01-20T14:22:36+01:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -106,7 +106,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">How to create a virtual environment with conda</h1><h2 class="single-subtitle">A guide to get you started with data ___ projects.</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Siegfried Eckstedt</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-20">2021-01-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;739 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-20">2021-01-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;732 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="true">
                 <div class="details-summary toc-title">
@@ -138,43 +138,84 @@
 <p>Let&rsquo;s get our hands dirty.</p>
 <p>Follow the instructions in the conda docs to install conda. Propably, you may just install Anaconda or Miniconda.
 <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html</a></p>
-<p>First thing, we <strong>create</strong> a new virtual environment called &lsquo;my-new-virt-env&rsquo; with a current Python version. In my case, I want to install 3.8. Here is the command for your temrinal.
-'''
-conda create &ndash;name my-new-virt-env python=3.8
-'''</p>
-<p>Once created, we <strong>activate</strong> the new environment so that it is up for use.
-'''
-conda activate my-new-virt-env
-'''</p>
-<p>Now, any installed package will be living in the newly created environment. Thus, package dependencies have been decoupled from projects.</p>
-<p>As a matter of practicallity and transparency, I suggest to keep naming of project directory and virtual environment same. For the example we have spinned off above, we might need to create a <strong>directory</strong> for our project. So, you can do something like this in terminal.
-'''
-mkdir my-new-virt-env
+<p>First thing, we <strong>create</strong> a new virtual environment called &lsquo;my-new-virt-env&rsquo; with a current Python version. In my case, I want to install 3.8. Here is the command for your temrinal.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">conda create --name my-new-virt-env python=3.8
+</code></pre></td></tr></table>
+</div>
+</div><p>Once created, we <strong>activate</strong> the new environment so that it is up for use.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">conda activate my-new-virt-env
+</code></pre></td></tr></table>
+</div>
+</div><p>Now, any installed package will be living in the newly created environment. Thus, package dependencies have been decoupled from projects.</p>
+<p>As a matter of practicallity and transparency, I suggest to keep naming of project directory and virtual environment same. For the example we have spinned off above, we might need to create a <strong>directory</strong> for our project. So, you can do something like this in terminal.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">mkdir my-new-virt-env
 cd my-new-virt-env
-'''</p>
-<p>As you are done with working on the project, <strong>deactivate</strong> the current environment.
-'''
-conda deactivate
-'''</p>
-<h2 id="manage-virtual-environment">Manage virtual environment</h2>
+</code></pre></td></tr></table>
+</div>
+</div><p>As you are done with working on the project, <strong>deactivate</strong> the current environment.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">conda deactivate
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="manage-virtual-environment">Manage virtual environment</h2>
 <p>That&rsquo;s cool. Our environment is up and ready for us to play. But so far, we&rsquo;ve only touched the surface of what conda can do. Here are some more commands that can be of good help.</p>
-<p>First, get a list of all environments that you have created on your system.
-'''
-conda info &ndash;envs
-'''</p>
-<p>Then, installing a list of packages into a specified conda environment is done as follows. Note that, if no environment is specified, the current environment is used.
-'''
-conda install &ndash;name my-new-environment pandas
-'''</p>
-<p>This is how you get a list of all packages in the conda environment.
-'''
-conda list
-'''</p>
-<p>And lastly, if you want to part from your created environment, remove an environment with this command.
-'''
-conda env remove &ndash;name my-new-virt-env
-'''</p>
-<p>There are more cool things you can do with conda, such as cloning or restoring environments. Read more on how to manage environments in conda here:
+<p>First, get a list of all environments that you have created on your system.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">conda info --envs
+</code></pre></td></tr></table>
+</div>
+</div><p>Then, installing a list of packages into a specified conda environment is done as follows. Note that, if no environment is specified, the current environment is used.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">conda install --name my-new-environment pandas
+</code></pre></td></tr></table>
+</div>
+</div><p>This is how you get a list of all packages in the conda environment.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">conda list
+</code></pre></td></tr></table>
+</div>
+</div><p>And lastly, if you want to part from your created environment, remove an environment with this command.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">conda env remove --name my-new-virt-env
+</code></pre></td></tr></table>
+</div>
+</div><p>There are more cool things you can do with conda, such as cloning or restoring environments. Read more on how to manage environments in conda here:
 <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html</a></p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
