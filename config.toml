@@ -12,9 +12,9 @@ theme = "LoveIt"
   # LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "machinemind.io - how to work on data by siegstedt"
+  description = "machinemind.io - how to work on data by siegstedt. The more data I add here, the better my Google Search results."
   # site keywords
-  keywords = ["data", "machine", "machine learning", "database"]
+  keywords = ["data","data science", "data Engineering","software development","machine learning", "database","project management"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
@@ -494,7 +494,7 @@ theme = "LoveIt"
 [author]
   name = "Siegfried Eckstedt"
   email = "siegstedt@machinemind.io"
-  link = ""
+  link = "https://machinemind.io/siegstedt"
 
 # Sitemap config
 [sitemap]
@@ -539,6 +539,18 @@ theme = "LoveIt"
 
 [menu]
   [[menu.main]]
+    identifier = "home"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "home"
+    url = "/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+
+  [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -548,7 +560,7 @@ theme = "LoveIt"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     identifier = "work"
@@ -560,7 +572,7 @@ theme = "LoveIt"
     url = "/work/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     identifier = "about"
@@ -572,4 +584,4 @@ theme = "LoveIt"
     url = "/siegstedt/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 3
+    weight = 4

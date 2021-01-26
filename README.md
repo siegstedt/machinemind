@@ -10,15 +10,15 @@ Unordered lists of issues.
 
 **Posts:**
 
+- [x] write a post on how to create a virtual environment with conda
 - [ ] write a post on how to set up a secure remote workplace
 - [ ] write a post on must read books for learning python programming
-- [ ] write a post on how to create a virtual environment with conda
 
 **Design:**
 
 - [x] add a page for profile
 - [x] add a page for services
-- [ ] edit avatar to custom image
+- [x] edit avatar to custom image
 - [ ] add keyword a front matter variable
 - [ ] for home page: hide 'Read More'
 - [ ] for home page: list of tags to start from left end of post item

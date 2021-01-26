@@ -4,12 +4,12 @@ subtitle: "A guide to get you started with data ___ projects."
 date: 2021-01-20T14:22:36+01:00
 lastmod: 2021-01-20T14:22:36+01:00
 draft: false
-author: ""
+author: "siegstedt"
 authorLink: ""
 description: "How to create a virtual environment with conda"
 
 tags: [conda, environment, python, programming, project]
-categories: []
+categories: [Projects]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

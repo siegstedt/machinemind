@@ -4,7 +4,14 @@
         <link>https://www.machinemind.io/categories/projects/</link>
         <description>Projects - Category - machinemind.io</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>siegstedt@machinemind.io (Siegfried Eckstedt)</managingEditor>
-            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Sun, 03 Jan 2021 12:29:51 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/categories/projects/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Wed, 20 Jan 2021 14:22:36 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/categories/projects/" rel="self" type="application/rss+xml" /><item>
+    <title>How to create a virtual environment with conda</title>
+    <link>https://www.machinemind.io/how-to-virtual-env-with-conda/</link>
+    <pubDate>Wed, 20 Jan 2021 14:22:36 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/how-to-virtual-env-with-conda/</guid>
+    <description><![CDATA[<p>Let&rsquo;s say you&rsquo;re working on different projects. One a nlp project. One a financial analytics projects. One a marketing analytics project.</p>]]></description>
+</item><item>
     <title>How to set up a webpage using HUGO, Netlify, and Git</title>
     <link>https://www.machinemind.io/how-to-set-up-hugo-and-netlify/</link>
     <pubDate>Sun, 03 Jan 2021 12:29:51 &#43;0100</pubDate>
