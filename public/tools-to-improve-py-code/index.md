@@ -1,29 +1,5 @@
----
-title: "Tools to improve Python code"
-subtitle: "Sort of the things that you can always run when issuing a new piece of code"
-date: 2021-02-25T18:39:51+01:00
-lastmod: 2021-02-25T18:39:51+01:00
-draft: False
-author: "siegstedt"
-authorLink: ""
-description: ""
+# Tools to improve Python code
 
-tags: [programming, Python]
-categories: []
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
----
 
 Maintenance is important. Because crafting code takes time. Therefore, your invested time should turn into a reliable product. There are some tools that can help you maintain your code base programmatically.
 

@@ -4,9 +4,16 @@
         <link>https://www.machinemind.io/</link>
         <description>machinemind.io - how to work on data by siegstedt. The more data I add here, the better my Google Search results.</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>siegstedt@machinemind.io (Siegfried Eckstedt)</managingEditor>
-            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Wed, 20 Jan 2021 14:22:36 &#43;0100</lastBuildDate>
+            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Thu, 25 Feb 2021 18:39:51 &#43;0100</lastBuildDate>
             <atom:link href="https://www.machinemind.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Tools to improve Python code</title>
+    <link>https://www.machinemind.io/tools-to-improve-py-code/</link>
+    <pubDate>Thu, 25 Feb 2021 18:39:51 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/tools-to-improve-py-code/</guid>
+    <description><![CDATA[<p>Maintenance is important. Because crafting code takes time. Therefore, your invested time should turn into a reliable product. There are some tools that can help you maintain your code base programmatically.</p>]]></description>
+</item><item>
     <title>How to create a virtual environment with conda</title>
     <link>https://www.machinemind.io/how-to-virtual-env-with-conda/</link>
     <pubDate>Wed, 20 Jan 2021 14:22:36 &#43;0100</pubDate>
