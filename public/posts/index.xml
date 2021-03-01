@@ -4,7 +4,14 @@
         <link>https://www.machinemind.io/posts/</link>
         <description>All Posts | machinemind.io</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>siegstedt@machinemind.io (Siegfried Eckstedt)</managingEditor>
-            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Thu, 25 Feb 2021 18:39:51 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Mon, 01 Mar 2021 13:37:32 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Git Commands to Live By</title>
+    <link>https://www.machinemind.io/git-commands-to-live-by/</link>
+    <pubDate>Mon, 01 Mar 2021 13:37:32 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/git-commands-to-live-by/</guid>
+    <description><![CDATA[<p>Git is an essential tool for programmming. If you want to get deeper involved in coding, better be prepared to get familiar with some of the most vital commands. Here is a short summary broken down to scenarios.</p>]]></description>
+</item><item>
     <title>What tools to use use for improving Python code maintenance?</title>
     <link>https://www.machinemind.io/tools-to-improve-py-code/</link>
     <pubDate>Thu, 25 Feb 2021 18:39:51 &#43;0100</pubDate>
