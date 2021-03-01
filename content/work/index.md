@@ -1,10 +1,11 @@
 ---
 title: "Service"
-subtitle: "I am not going against you"
+subtitle: "Here is what I am offering"
 slug: work
 ---
 
 # Contract work
+
 ---
 **On spot delivery**
 
@@ -22,6 +23,8 @@ You exactly know what questions you want to have answered, but you got stuck wit
 Let us pick up your data problem and provide a solution based on your requirements. We get our hands on the problem and promptly solve the challenge. From a careful start of evaluating the as-is status, we follow through iterative feedback loops to develop for user delight.
 
 Send a text to siegstedt@machinemind.io
+
+---
 
 # Workshops
 
