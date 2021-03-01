@@ -1,5 +1,5 @@
 ---
-title: "What tools to use use for improving Python code maintenance?"
+title: "What tools to use for improving Python code maintenance"
 subtitle: "Sort of the things that you can always run when issuing a new piece of code"
 date: 2021-02-25T18:39:51+01:00
 lastmod: 2021-02-25T18:39:51+01:00

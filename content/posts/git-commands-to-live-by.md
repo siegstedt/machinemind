@@ -1,5 +1,5 @@
 ---
-title: "Git Commands to Live By"
+title: "Git commands to live by"
 subtitle: "Collection of some of the most vital git commands"
 date: 2021-03-01T13:37:32+01:00
 lastmod: 2021-03-01T13:37:32+01:00

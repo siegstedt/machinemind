@@ -1,4 +1,4 @@
-# Git Commands to Live By
+# Git commands to live by
 
 
 Git is an essential tool for programmming. If you want to get deeper involved in coding, better be prepared to get familiar with some of the most vital commands. Here is a short summary broken down to scenarios.
