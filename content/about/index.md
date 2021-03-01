@@ -1,5 +1,5 @@
 ---
-title: "about Siegfried Eckstedt"
+title: "about me"
 subtitle: ""
 slug: siegstedt
 ---
@@ -37,8 +37,8 @@ slug: siegstedt
 
 I was born somewhere in Siberia. Grew up in Bavaria. Studied Economics and Management. Worked in Digital Transformation and Data Science. I have love for running, food and DIY.
 
-At heart, I am a creator that loves to fix and solve challenges. I feel that it is exciting to drive business value using innovative ideas as well as a pragmatic work ethos.
+At heart, I am a creator that loves to fix things and solve challenges. I feel excited about driving business value using innovative ideas as well as a pragmatic work ethos.
 
 Since 2015, I worked as a counsel for analytical inquiries in the fields of Market & Consumer Intelligence, Innovation & Product Management and Software Development.
 
-My professional experience lies the IT and Pharmaceutical industries. I deliver viable products working with agile development teams and give counsel on strategic endeavors in the world of data driven business.
+My professional experience lies with the IT and Pharmaceutical industries. I deliver viable products working with agile development teams and give counsel on strategic endeavors in the world of data and business.
