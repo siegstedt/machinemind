@@ -19,6 +19,13 @@
     <guid>https://www.machinemind.io/tools-to-improve-py-code/</guid>
     <description><![CDATA[<p>Maintenance is important. Because crafting code takes time. Therefore, your invested time should turn into a reliable product. There are some tools that can help you maintain your code base programmatically.</p>]]></description>
 </item><item>
+    <title>Must Read: Books for learning programming with Python</title>
+    <link>https://www.machinemind.io/must-read-books-for-learning-python/</link>
+    <pubDate>Fri, 12 Feb 2021 19:23:11 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/must-read-books-for-learning-python/</guid>
+    <description><![CDATA[<p>Programming is an essential skill as you operate data on some machine. But, we are not all Computer Science graduate who learnt Software Engineering at uni. That&rsquo;s alright. It&rsquo;s never too late to learn a new trick. Here are some good reads to learn programming in Python.</p>]]></description>
+</item><item>
     <title>How to create a virtual environment with conda</title>
     <link>https://www.machinemind.io/how-to-virtual-env-with-conda/</link>
     <pubDate>Wed, 20 Jan 2021 14:22:36 &#43;0100</pubDate>
@@ -68,12 +75,5 @@
     <author>Author</author>
     <guid>https://www.machinemind.io/how-to-design-data-products/</guid>
     <description><![CDATA[<p>Let’s be fair. In this time of rapid innovation and the need for expert knowledge, it’s a tough call to be a master in all disciplines. Be it algorithm designs, project management, product design, you name it. It’s truly hard to span an umbrella to cover it all and still make it simple to follow through and produce effective results. Here is what I’d do: Blend Data Science into Design Thinking.</p>]]></description>
-</item><item>
-    <title>How it is being a Data Scientist: One year into the job</title>
-    <link>https://www.machinemind.io/being-a-data-scientist/</link>
-    <pubDate>Sun, 03 Nov 2019 05:38:29 &#43;0100</pubDate>
-    <author>Author</author>
-    <guid>https://www.machinemind.io/being-a-data-scientist/</guid>
-    <description><![CDATA[<p>What is it like working as a Data Scientist? Generally speaking, I do not know. But I can share my first hand experience having just passed the one year mark into the job. Of course, it was different to what I expected. I have coded far less super auto-magical machines, and I got caught up in far too much unplanned work. I learnt about the importance of contextual factors and team work. First things first, let me start with how I have gotten into this.</p>]]></description>
 </item></channel>
 </rss>

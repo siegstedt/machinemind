@@ -1,29 +1,5 @@
----
-title: "Must Read: Books for learning programming with Python"
-subtitle: ""
-date: 2021-02-12T19:23:11+01:00
-lastmod: 2021-02-12T19:23:11+01:00
-draft: false
-author: "siegstedt"
-authorLink: ""
-description: "Must Read: Books for lLearning programming in Python"
+# Must Read: Books for learning programming with Python
 
-tags: [python, programming, books, must reads]
-categories: []
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
----
 
 Programming is an essential skill as you operate data on some machine. But, we are not all Computer Science graduate who learnt Software Engineering at uni. That's alright. It's never too late to learn a new trick. Here are some good reads to learn programming in Python.
 
