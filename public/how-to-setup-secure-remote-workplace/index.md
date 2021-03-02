@@ -11,7 +11,7 @@ Help to **improve this post** on [GitHub](https://github.com/siegstedt/machinemi
 
 If you're lost somewhere in the bug city jungle and need to work from a Starbucks, you probably already know this: connecting to a public Wi-Fi hotspot.
 
-While that can be convenient at times, it can also carry the risk of being exposed to potential thread. So, better protect yourself from connecting through untrustworthy Wi-Fi hotspots.
+While that can be convenient at times, it can also carry the risk of being exposed to potential threat. So, better protect yourself from connecting through untrustworthy Wi-Fi hotspots.
 
 A VPN, or Virtual Private Network, allows you to create a secure connection to another network over the Internet (see article on [howtogeek.com](https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn)).
 
