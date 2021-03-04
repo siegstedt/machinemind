@@ -1,6 +1,6 @@
 ---
 title: "How to create a virtual environment with conda"
-subtitle: "A guide to get you started with data ___ projects."
+subtitle: "A guide to get you started your first conda environment"
 date: 2021-01-20T14:22:36+01:00
 lastmod: 2021-01-20T14:22:36+01:00
 draft: false

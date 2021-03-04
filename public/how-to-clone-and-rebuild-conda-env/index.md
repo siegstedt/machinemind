@@ -1,4 +1,4 @@
-# How to Clone and Rebuild Conda Env
+# How to clone and rebuild a conda environment
 
 
 You have created a conda environment. Good job! But you want it to be accessible to others. And, you want to recreate on a different machine. Well, here is how you can do it.

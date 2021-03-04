@@ -7,7 +7,7 @@
             <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Thu, 04 Mar 2021 08:20:17 &#43;0100</lastBuildDate>
             <atom:link href="https://www.machinemind.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>How to Clone and Rebuild Conda Env</title>
+    <title>How to clone and rebuild a conda environment</title>
     <link>https://www.machinemind.io/how-to-clone-and-rebuild-conda-env/</link>
     <pubDate>Thu, 04 Mar 2021 08:20:17 &#43;0100</pubDate>
     <author>Author</author>

@@ -1,6 +1,6 @@
 ---
-title: "How to Clone and Rebuild Conda Env"
-subtitle: ""
+title: "How to clone and rebuild a conda environment"
+subtitle: "Instructions for reproducable environments with conda"
 date: 2021-03-04T08:20:17+01:00
 lastmod: 2021-03-04T08:20:17+01:00
 draft: false
@@ -8,8 +8,8 @@ author: "siegstedt"
 authorLink: ""
 description: ""
 
-tags: []
-categories: [conda, virtual environment, programming]
+tags: [Projects]
+categories: [conda, environment, programming, project, python]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
