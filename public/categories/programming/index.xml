@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>programming - Category - machinemind.io</title>
+        <link>https://www.machinemind.io/categories/programming/</link>
+        <description>programming - Category - machinemind.io</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>siegstedt@machinemind.io (Siegfried Eckstedt)</managingEditor>
+            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Thu, 04 Mar 2021 08:20:17 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/categories/programming/" rel="self" type="application/rss+xml" /><item>
+    <title>How to Clone and Rebuild Conda Env</title>
+    <link>https://www.machinemind.io/how-to-clone-and-rebuild-conda-env/</link>
+    <pubDate>Thu, 04 Mar 2021 08:20:17 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/how-to-clone-and-rebuild-conda-env/</guid>
+    <description><![CDATA[<p>You have created a conda environment. Good job! But you want it to be accessible to others. And, you want to recreate on a different machine. Well, here is how you can do it.</p>]]></description>
+</item></channel>
+</rss>

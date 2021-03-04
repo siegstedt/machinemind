@@ -4,7 +4,14 @@
         <link>https://www.machinemind.io/posts/</link>
         <description>All Posts | machinemind.io</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>siegstedt@machinemind.io (Siegfried Eckstedt)</managingEditor>
-            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Mon, 01 Mar 2021 13:37:32 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>siegstedt@machinemind.io (Siegfried Eckstedt)</webMaster><lastBuildDate>Thu, 04 Mar 2021 08:20:17 &#43;0100</lastBuildDate><atom:link href="https://www.machinemind.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>How to Clone and Rebuild Conda Env</title>
+    <link>https://www.machinemind.io/how-to-clone-and-rebuild-conda-env/</link>
+    <pubDate>Thu, 04 Mar 2021 08:20:17 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://www.machinemind.io/how-to-clone-and-rebuild-conda-env/</guid>
+    <description><![CDATA[<p>You have created a conda environment. Good job! But you want it to be accessible to others. And, you want to recreate on a different machine. Well, here is how you can do it.</p>]]></description>
+</item><item>
     <title>Git commands to live by</title>
     <link>https://www.machinemind.io/git-commands-to-live-by/</link>
     <pubDate>Mon, 01 Mar 2021 13:37:32 &#43;0100</pubDate>
@@ -68,12 +75,5 @@
     <author>Author</author>
     <guid>https://www.machinemind.io/must-read-books-for-learning-ml-ai/</guid>
     <description><![CDATA[<p>What are your favorite books on Machine Learning or Artificial Intelligence? In the series of must read books, I feature theme-specific lists of books on various topics. Here is the start of the series covering the theme Machine Learning and Artificial Intelligence. On purpose, it&rsquo;s a fairly condensed list of six books. So I trust that you have a few suggestions what piece could make a good addition.</p>]]></description>
-</item><item>
-    <title>How to design data products: A Design Thinking flow for Data Science</title>
-    <link>https://www.machinemind.io/how-to-design-data-products/</link>
-    <pubDate>Sun, 17 Nov 2019 22:47:38 &#43;0100</pubDate>
-    <author>Author</author>
-    <guid>https://www.machinemind.io/how-to-design-data-products/</guid>
-    <description><![CDATA[<p>Let’s be fair. In this time of rapid innovation and the need for expert knowledge, it’s a tough call to be a master in all disciplines. Be it algorithm designs, project management, product design, you name it. It’s truly hard to span an umbrella to cover it all and still make it simple to follow through and produce effective results. Here is what I’d do: Blend Data Science into Design Thinking.</p>]]></description>
 </item></channel>
 </rss>
