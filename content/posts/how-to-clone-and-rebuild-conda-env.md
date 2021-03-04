@@ -8,8 +8,8 @@ author: "siegstedt"
 authorLink: ""
 description: ""
 
-tags: [Projects]
-categories: [conda, environment, programming, project, python]
+tags: [conda, environment, programming, project, python]
+categories: [Projects]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
